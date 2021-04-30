@@ -5,8 +5,6 @@
 
 
 
-
-
 ## 개요
 
 ##### [융복합 프로젝트형] AI 서비스 개발과정 2차 팀 프로젝트
@@ -16,14 +14,10 @@
 
 
 
-
-
 - 활용 데이터
   * 1049개 클래스의 비식별화된 한국형 랜드마크 데이터셋
   * Trainset : 88,102장
   * Testset : 37,964장
-
-
 
 
 
@@ -35,12 +29,8 @@
 
 
 
-
-
 * 대회 평가 산식
   * `GAP`(Global Average Precision) 
-
-
 
 
 
@@ -56,14 +46,10 @@
 
    
 
-   
-
 2. Preprocessing
 
    * 학습 속도 향상 및 데이터 관리의 용이성을 위해 `TFRecord`로 변환
      * `TFRecord` : `Google Protocol Buffer Format`을 통해 파일을 `Serialize`
-
-   
 
    
 
@@ -76,7 +62,14 @@
 
 
 
+## 내가 맡은 역할
 
+1. 이미지와 label을 묶어 TFRecord로 변환
+2. Pre-trained 모델인 DenseNet201을 사용하여 단일 모델로는 팀 내 가장 높은  Public Score 0.989점을 기록
+
+
+
+---
 
 ## 프로젝트 결과 및 느낀점
 
